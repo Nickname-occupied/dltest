@@ -1,0 +1,6 @@
+[S2_step] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'lr': 0.001, 'sched': 'step'}  params=556,426
+[S1_cosine] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'lr': 0.001, 'sched': 'cosine'}  params=556,426
+  [S2_step] ep 1 train=0.3266 val=0.7208 best=0.7208 lr=3.34e-04
+  [S1_cosine] ep 1 train=0.3267 val=0.7203 best=0.7203 lr=3.34e-04
+  [S1_cosine] ep10 train=0.8809 val=0.8845 best=0.8910 lr=9.94e-04
+  [S2_step] ep10 train=0.8819 val=0.8943 best=0.8943 lr=1.00e-03

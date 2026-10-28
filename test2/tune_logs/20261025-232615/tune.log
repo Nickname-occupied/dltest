@@ -1,0 +1,9 @@
+[G_150] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True}  params=556,426
+  [G_150] ep 1 train=0.3459 val=nan best=nan lr=3.34e-04
+[G_150] DONE best_ep=1 val=nan test=0.7151 weights=raw (75s)
+
+=== ranked by val acc ===
+  G_150     val=nan test=0.7151 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (74.7s)
+
+best: G_150  val=nan  test=0.7151
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-232615

@@ -1,0 +1,3 @@
+trial,params,best_epoch,val_acc,test_acc,secs,widths,dropout,lr,wd,ls,aug,bs
+A_3block,288170,1,0.7551666666666667,0.7558,15.5,"[32, 64, 128]",0.1,0.001,0.001,0.1,strong,128
+B_4stage,1175210,1,0.7605,0.7629,10.0,"[32, 64, 128, 256]",0.1,0.001,0.001,0.1,strong,128

@@ -1,0 +1,9 @@
+[baseline] {'widths': [32, 64, 128], 'dropout': 0.1, 'lr': 0.0001, 'wd': 0.0, 'ls': 0.0, 'aug': 'mild', 'bs': 64, 'pool': 'max', 'res': False, 'k': 3}  params=288,170
+  [baseline] ep 1 train=0.5111 val=0.7257 best=0.7257 lr=3.34e-05
+[baseline] DONE best_ep=2 val=0.8010 test=0.8029 (26s)
+
+=== ranked by val acc ===
+  baseline  val=0.8010 test=0.8029 ep= 2 lr=0.0001 wd=0e+00 dr=0.1 ls=0.0 aug=mild   bs=64  widths=[32, 64, 128] (26.2s)
+
+best: baseline  val=0.8010  test=0.8029
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-154237

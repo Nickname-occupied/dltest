@@ -1,0 +1,9 @@
+[A1_linear] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'aug_sched': 'linear'}  params=852,362
+  [A1_linear] ep 1 train=0.4368 val=0.6025 best=0.6025 lr=3.34e-04
+[A1_linear] DONE best_ep=2 val=0.8255 test=0.8237 weights=raw (24s)
+
+=== ranked by val acc ===
+  A1_linear val=0.8255 test=0.8237 ep= 2 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (24.2s)
+
+best: A1_linear  val=0.8255  test=0.8237
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-210413

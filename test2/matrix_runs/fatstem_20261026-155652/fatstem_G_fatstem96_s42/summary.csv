@@ -1,0 +1,2 @@
+trial,params,best_epoch,val_acc,ema_val,test_acc,weights,secs,widths,dropout,lr,wd,ls,aug,bs
+G_fatstem96,720010,84,0.9463333333333334,0.0,0.9461,raw,1010.9,"[96, 64, 64, 64]",0.1,0.001,0.001,0.1,strong,128

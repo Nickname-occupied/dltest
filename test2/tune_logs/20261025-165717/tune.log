@@ -1,0 +1,33 @@
+[D_wide] {'stages': [(64, 1), (128, 1), (256, 1), (512, 1)], 'dropout': 0.2, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': False, 'k': 3, 'pool_last': False}  params=4,691,274
+  [D_wide] ep 1 train=0.6705 val=0.7783 best=0.7783 lr=3.34e-04
+  [D_wide] ep10 train=0.8900 val=0.8723 best=0.8875 lr=9.87e-04
+  [D_wide] ep20 train=0.9087 val=0.9148 best=0.9152 lr=9.26e-04
+  [D_wide] ep30 train=0.9246 val=0.9253 best=0.9278 lr=8.21e-04
+  [D_wide] ep40 train=0.9305 val=0.9350 best=0.9377 lr=6.82e-04
+  [D_wide] ep50 train=0.9414 val=0.9417 best=0.9417 lr=5.24e-04
+  [D_wide] ep60 train=0.9474 val=0.9437 best=0.9437 lr=3.64e-04
+  [D_wide] ep70 train=0.9518 val=0.9463 best=0.9463 lr=2.18e-04
+  [D_wide] ep80 train=0.9572 val=0.9442 best=0.9463 lr=1.01e-04
+  [D_wide] ep90 train=0.9570 val=0.9457 best=0.9475 lr=2.60e-05
+  [D_wide] ep100 train=0.9592 val=0.9450 best=0.9475 lr=0.00e+00
+[D_wide] DONE best_ep=83 val=0.9475 test=0.9432 (633s)
+[E_heavy] {'stages': [(32, 1), (64, 1), (128, 1), (256, 1)], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'heavy', 'bs': 128, 'pool': 'max', 'res': False, 'k': 3, 'pool_last': False}  params=1,175,210
+  [E_heavy] ep 1 train=0.6217 val=0.6642 best=0.6642 lr=3.34e-04
+  [E_heavy] ep10 train=0.8702 val=0.8458 best=0.8655 lr=9.87e-04
+  [E_heavy] ep20 train=0.8924 val=0.8795 best=0.8897 lr=9.26e-04
+  [E_heavy] ep30 train=0.9040 val=0.9010 best=0.9042 lr=8.21e-04
+  [E_heavy] ep40 train=0.9106 val=0.9100 best=0.9163 lr=6.82e-04
+  [E_heavy] ep50 train=0.9192 val=0.9130 best=0.9163 lr=5.24e-04
+  [E_heavy] ep60 train=0.9263 val=0.9240 best=0.9240 lr=3.64e-04
+  [E_heavy] ep70 train=0.9284 val=0.9247 best=0.9275 lr=2.18e-04
+  [E_heavy] ep80 train=0.9333 val=0.9250 best=0.9298 lr=1.01e-04
+  [E_heavy] ep90 train=0.9336 val=0.9290 best=0.9298 lr=2.60e-05
+  [E_heavy] ep100 train=0.9349 val=0.9157 best=0.9298 lr=0.00e+00
+[E_heavy] DONE best_ep=77 val=0.9298 test=0.9277 (491s)
+
+=== ranked by val acc ===
+  D_wide    val=0.9475 test=0.9432 ep=83 lr=0.001 wd=1e-03 dr=0.2 ls=0.1 aug=strong bs=128 widths=[64, 128, 256, 512] (633.0s)
+  E_heavy   val=0.9298 test=0.9277 ep=77 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=heavy  bs=128 widths=[32, 64, 128, 256] (491.0s)
+
+best: D_wide  val=0.9475  test=0.9432
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-165717

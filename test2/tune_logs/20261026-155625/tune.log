@@ -1,0 +1,9 @@
+[G_fatstem96] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'stream', 'stages': [(96, 2), (64, 2), (64, 2), (64, 2)]}  params=720,010
+  [G_fatstem96] ep 1 train=0.3787 val=0.6907 best=0.6907 lr=3.34e-04
+[G_fatstem96] DONE best_ep=1 val=0.6907 test=0.6907 weights=raw (17s)
+
+=== ranked by val acc ===
+  G_fatstem96 val=0.6907 test=0.6907 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[96, 64, 64, 64] (17.1s)
+
+best: G_fatstem96  val=0.6907  test=0.6907
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-155625

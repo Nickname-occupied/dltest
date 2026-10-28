@@ -1,0 +1,2 @@
+trial,params,best_epoch,val_acc,ema_val,test_acc,weights,secs,widths,dropout,lr,wd,ls,aug,bs
+D16_base,1148298,91,0.9473333333333334,0.0,0.944,raw,1218.4,"[64, 64, 64, 64]",0.1,0.001,0.001,0.1,strong,128

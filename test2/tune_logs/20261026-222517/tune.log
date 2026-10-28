@@ -1,0 +1,9 @@
+[Q1_64_128_256_256] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'aug_sched': 'cosine', 'stages': [(64, 1), (128, 1), (256, 1), (256, 1)]}  params=2,370,314
+  [Q1_64_128_256_256] ep 1 train=0.4902 val=0.6892 best=0.6892 lr=3.34e-04
+[Q1_64_128_256_256] DONE best_ep=1 val=0.6892 test=0.7035 weights=raw (16s)
+
+=== ranked by val acc ===
+  Q1_64_128_256_256 val=0.6892 test=0.7035 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 128, 256, 256] (16.5s)
+
+best: Q1_64_128_256_256  val=0.6892  test=0.7035
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-222517

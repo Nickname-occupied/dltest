@@ -1,0 +1,9 @@
+[deep12_mlp] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'head': 'mlp'}  params=1,001,994
+  [deep12_mlp] ep 1 train=0.5020 val=0.7435 best=0.7435 lr=3.34e-04
+[deep12_mlp] DONE best_ep=1 val=0.7435 test=0.7465 weights=raw (17s)
+
+=== ranked by val acc ===
+  deep12_mlp val=0.7435 test=0.7465 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (16.7s)
+
+best: deep12_mlp  val=0.7435  test=0.7465
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-184342

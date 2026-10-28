@@ -1,0 +1,19 @@
+[G_iso64_lr2e3] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'lr': 0.002, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False}  params=556,426
+  [G_iso64_lr2e3] ep 1 train=0.4233 val=0.7437 best=0.7437 lr=6.68e-04
+  [G_iso64_lr2e3] ep10 train=0.8867 val=0.8912 best=0.9002 lr=1.97e-03
+  [G_iso64_lr2e3] ep20 train=0.9077 val=0.9168 best=0.9220 lr=1.85e-03
+  [G_iso64_lr2e3] ep30 train=0.9174 val=0.9227 best=0.9248 lr=1.64e-03
+  [G_iso64_lr2e3] ep40 train=0.9245 val=0.9338 best=0.9390 lr=1.36e-03
+  [G_iso64_lr2e3] ep50 train=0.9320 val=0.9323 best=0.9390 lr=1.05e-03
+  [G_iso64_lr2e3] ep60 train=0.9364 val=0.9397 best=0.9408 lr=7.28e-04
+  [G_iso64_lr2e3] ep70 train=0.9425 val=0.9445 best=0.9445 lr=4.36e-04
+  [G_iso64_lr2e3] ep80 train=0.9456 val=0.9438 best=0.9472 lr=2.03e-04
+  [G_iso64_lr2e3] ep90 train=0.9472 val=0.9445 best=0.9472 lr=5.20e-05
+  [G_iso64_lr2e3] ep100 train=0.9473 val=0.9445 best=0.9472 lr=0.00e+00
+[G_iso64_lr2e3] DONE best_ep=77 val=0.9472 test=0.9447 (997s)
+
+=== ranked by val acc ===
+  G_iso64_lr2e3 val=0.9472 test=0.9447 ep=77 lr=0.002 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (997.2s)
+
+best: G_iso64_lr2e3  val=0.9472  test=0.9447
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-193843

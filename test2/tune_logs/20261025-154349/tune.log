@@ -1,0 +1,33 @@
+[baseline] {'widths': [32, 64, 128], 'dropout': 0.1, 'lr': 0.0001, 'wd': 0.0, 'ls': 0.0, 'aug': 'mild', 'bs': 64, 'pool': 'max', 'res': False, 'k': 3}  params=288,170
+  [baseline] ep 1 train=0.5110 val=0.7260 best=0.7260 lr=3.34e-05
+  [baseline] ep10 train=0.8959 val=0.9050 best=0.9050 lr=8.43e-05
+  [baseline] ep20 train=0.9149 val=0.9217 best=0.9217 lr=3.02e-05
+  [baseline] ep30 train=0.9209 val=0.9265 best=0.9270 lr=0.00e+00
+[baseline] DONE best_ep=25 val=0.9270 test=0.9225 (226s)
+[t1] {'widths': [32, 64, 128], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': False, 'k': 3}  params=288,170
+  [t1] ep 1 train=0.6139 val=0.7433 best=0.7433 lr=3.34e-04
+  [t1] ep10 train=0.8801 val=0.8910 best=0.8962 lr=8.43e-04
+  [t1] ep20 train=0.9055 val=0.9183 best=0.9183 lr=3.02e-04
+  [t1] ep30 train=0.9159 val=0.9227 best=0.9258 lr=0.00e+00
+[t1] DONE best_ep=24 val=0.9258 test=0.9221 (133s)
+[t2] {'widths': [32, 64, 128], 'dropout': 0.2, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': False, 'k': 3}  params=288,170
+  [t2] ep 1 train=0.5834 val=0.7555 best=0.7555 lr=3.34e-04
+  [t2] ep10 train=0.8742 val=0.8712 best=0.8912 lr=8.43e-04
+  [t2] ep20 train=0.8992 val=0.9120 best=0.9120 lr=3.02e-04
+  [t2] ep30 train=0.9094 val=0.9193 best=0.9208 lr=0.00e+00
+[t2] DONE best_ep=26 val=0.9208 test=0.9149 (127s)
+[t3] {'widths': [32, 64, 128], 'dropout': 0.1, 'lr': 0.0003, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': False, 'k': 3}  params=288,170
+  [t3] ep 1 train=0.5140 val=0.7188 best=0.7188 lr=1.00e-04
+  [t3] ep10 train=0.8672 val=0.8838 best=0.8862 lr=2.53e-04
+  [t3] ep20 train=0.8912 val=0.9063 best=0.9063 lr=9.06e-05
+  [t3] ep30 train=0.9004 val=0.9097 best=0.9110 lr=0.00e+00
+[t3] DONE best_ep=22 val=0.9110 test=0.9067 (127s)
+
+=== ranked by val acc ===
+  baseline  val=0.9270 test=0.9225 ep=25 lr=0.0001 wd=0e+00 dr=0.1 ls=0.0 aug=mild   bs=64  widths=[32, 64, 128] (226.4s)
+  t1        val=0.9258 test=0.9221 ep=24 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[32, 64, 128] (132.5s)
+  t2        val=0.9208 test=0.9149 ep=26 lr=0.001 wd=1e-03 dr=0.2 ls=0.1 aug=strong bs=128 widths=[32, 64, 128] (126.9s)
+  t3        val=0.9110 test=0.9067 ep=22 lr=0.0003 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[32, 64, 128] (127.0s)
+
+best: baseline  val=0.9270  test=0.9225
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-154349

@@ -1,0 +1,33 @@
+[A_3block] {'widths': [32, 64, 128], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': False, 'k': 3, 'pool_last': True}  params=288,170
+  [A_3block] ep 1 train=0.6134 val=0.7530 best=0.7530 lr=3.34e-04
+  [A_3block] ep10 train=0.8797 val=0.8978 best=0.8978 lr=9.87e-04
+  [A_3block] ep20 train=0.9010 val=0.9105 best=0.9105 lr=9.26e-04
+  [A_3block] ep30 train=0.9101 val=0.9193 best=0.9207 lr=8.21e-04
+  [A_3block] ep40 train=0.9183 val=0.9313 best=0.9313 lr=6.82e-04
+  [A_3block] ep50 train=0.9242 val=0.9322 best=0.9322 lr=5.24e-04
+  [A_3block] ep60 train=0.9284 val=0.9343 best=0.9372 lr=3.64e-04
+  [A_3block] ep70 train=0.9339 val=0.9345 best=0.9403 lr=2.18e-04
+  [A_3block] ep80 train=0.9355 val=0.9358 best=0.9403 lr=1.01e-04
+  [A_3block] ep90 train=0.9382 val=0.9385 best=0.9403 lr=2.60e-05
+  [A_3block] ep100 train=0.9363 val=0.9398 best=0.9413 lr=0.00e+00
+[A_3block] DONE best_ep=94 val=0.9413 test=0.9381 (423s)
+[B_4stage] {'widths': [32, 64, 128, 256], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': False, 'k': 3, 'pool_last': False}  params=1,175,210
+  [B_4stage] ep 1 train=0.6534 val=0.7637 best=0.7637 lr=3.34e-04
+  [B_4stage] ep10 train=0.8894 val=0.8550 best=0.8918 lr=9.87e-04
+  [B_4stage] ep20 train=0.9073 val=0.9090 best=0.9130 lr=9.26e-04
+  [B_4stage] ep30 train=0.9189 val=0.9132 best=0.9223 lr=8.21e-04
+  [B_4stage] ep40 train=0.9267 val=0.9297 best=0.9297 lr=6.82e-04
+  [B_4stage] ep50 train=0.9331 val=0.9347 best=0.9373 lr=5.24e-04
+  [B_4stage] ep60 train=0.9389 val=0.9353 best=0.9378 lr=3.64e-04
+  [B_4stage] ep70 train=0.9430 val=0.9392 best=0.9427 lr=2.18e-04
+  [B_4stage] ep80 train=0.9463 val=0.9425 best=0.9463 lr=1.01e-04
+  [B_4stage] ep90 train=0.9479 val=0.9435 best=0.9463 lr=2.60e-05
+  [B_4stage] ep100 train=0.9491 val=0.9422 best=0.9470 lr=0.00e+00
+[B_4stage] DONE best_ep=97 val=0.9470 test=0.9409 (499s)
+
+=== ranked by val acc ===
+  B_4stage  val=0.9470 test=0.9409 ep=97 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[32, 64, 128, 256] (498.7s)
+  A_3block  val=0.9413 test=0.9381 ep=94 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[32, 64, 128] (423.4s)
+
+best: B_4stage  val=0.9470  test=0.9409
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-160930

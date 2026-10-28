@@ -1,0 +1,33 @@
+[F1_bs64] {'stages': [(32, 1), (64, 1), (128, 1), (256, 1)], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'bs': 64, 'pool': 'max', 'res': False, 'k': 3, 'pool_last': False, 'aug': 'strong'}  params=1,175,210
+  [F1_bs64] ep 1 train=0.6759 val=0.7997 best=0.7997 lr=3.34e-04
+  [F1_bs64] ep10 train=0.8886 val=0.8870 best=0.8902 lr=9.87e-04
+  [F1_bs64] ep20 train=0.9103 val=0.9210 best=0.9210 lr=9.26e-04
+  [F1_bs64] ep30 train=0.9209 val=0.9243 best=0.9250 lr=8.21e-04
+  [F1_bs64] ep40 train=0.9252 val=0.9335 best=0.9345 lr=6.82e-04
+  [F1_bs64] ep50 train=0.9318 val=0.9265 best=0.9345 lr=5.24e-04
+  [F1_bs64] ep60 train=0.9382 val=0.9392 best=0.9392 lr=3.64e-04
+  [F1_bs64] ep70 train=0.9435 val=0.9403 best=0.9407 lr=2.18e-04
+  [F1_bs64] ep80 train=0.9454 val=0.9398 best=0.9425 lr=1.01e-04
+  [F1_bs64] ep90 train=0.9478 val=0.9378 best=0.9425 lr=2.60e-05
+  [F1_bs64] ep100 train=0.9493 val=0.9400 best=0.9425 lr=0.00e+00
+[F1_bs64] DONE best_ep=76 val=0.9425 test=0.9380 (977s)
+[F2_rot] {'stages': [(32, 1), (64, 1), (128, 1), (256, 1)], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'bs': 128, 'pool': 'max', 'res': False, 'k': 3, 'pool_last': False, 'aug': 'rot'}  params=1,175,210
+  [F2_rot] ep 1 train=0.6512 val=0.7697 best=0.7697 lr=3.34e-04
+  [F2_rot] ep10 train=0.8885 val=0.8867 best=0.8867 lr=9.87e-04
+  [F2_rot] ep20 train=0.9079 val=0.9058 best=0.9147 lr=9.26e-04
+  [F2_rot] ep30 train=0.9196 val=0.9193 best=0.9213 lr=8.21e-04
+  [F2_rot] ep40 train=0.9272 val=0.9255 best=0.9255 lr=6.82e-04
+  [F2_rot] ep50 train=0.9348 val=0.9260 best=0.9352 lr=5.24e-04
+  [F2_rot] ep60 train=0.9408 val=0.9330 best=0.9352 lr=3.64e-04
+  [F2_rot] ep70 train=0.9455 val=0.9350 best=0.9367 lr=2.18e-04
+  [F2_rot] ep80 train=0.9484 val=0.9352 best=0.9393 lr=1.01e-04
+  [F2_rot] ep90 train=0.9507 val=0.9368 best=0.9393 lr=2.60e-05
+  [F2_rot] ep100 train=0.9515 val=0.9363 best=0.9402 lr=0.00e+00
+[F2_rot] DONE best_ep=97 val=0.9402 test=0.9384 (521s)
+
+=== ranked by val acc ===
+  F1_bs64   val=0.9425 test=0.9380 ep=76 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=64  widths=[32, 64, 128, 256] (976.8s)
+  F2_rot    val=0.9402 test=0.9384 ep=97 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=rot    bs=128 widths=[32, 64, 128, 256] (521.2s)
+
+best: F1_bs64  val=0.9425  test=0.9380
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-172453

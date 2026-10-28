@@ -1,0 +1,9 @@
+[G_ema] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'ema': True}  params=556,426
+  [G_ema] ep 1 train=0.3266 val=0.7212 best=0.7212 ema=0.1040 lr=3.34e-04
+[G_ema] DONE best_ep=1 val=0.7212 test=0.7224 weights=raw (raw val=0.7212, ema val=0.1965) (36s)
+
+=== ranked by val acc ===
+  G_ema     val=0.7212 test=0.7224 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (35.9s)
+
+best: G_ema  val=0.7212  test=0.7224
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-221044

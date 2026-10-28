@@ -1,0 +1,19 @@
+[deep12_flat] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'head': 'flat'}  params=857,482
+  [deep12_flat] ep 1 train=0.4733 val=0.7497 best=0.7497 lr=3.34e-04
+  [deep12_flat] ep10 train=0.8928 val=0.9048 best=0.9048 lr=9.87e-04
+  [deep12_flat] ep20 train=0.9141 val=0.9237 best=0.9237 lr=9.26e-04
+  [deep12_flat] ep30 train=0.9276 val=0.9283 best=0.9302 lr=8.21e-04
+  [deep12_flat] ep40 train=0.9323 val=0.9247 best=0.9353 lr=6.82e-04
+  [deep12_flat] ep50 train=0.9432 val=0.9347 best=0.9375 lr=5.24e-04
+  [deep12_flat] ep60 train=0.9487 val=0.9375 best=0.9378 lr=3.64e-04
+  [deep12_flat] ep70 train=0.9523 val=0.9407 best=0.9417 lr=2.18e-04
+  [deep12_flat] ep80 train=0.9596 val=0.9427 best=0.9443 lr=1.01e-04
+  [deep12_flat] ep90 train=0.9593 val=0.9415 best=0.9443 lr=2.60e-05
+  [deep12_flat] ep100 train=0.9599 val=0.9432 best=0.9452 lr=0.00e+00
+[deep12_flat] DONE best_ep=97 val=0.9452 test=0.9459 weights=raw (899s)
+
+=== ranked by val acc ===
+  deep12_flat val=0.9452 test=0.9459 ep=97 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (898.6s)
+
+best: deep12_flat  val=0.9452  test=0.9459
+outputs -> C:\Users\25707\projects\dltest\test2\matrix_runs\bigfc_20261026-184403\bigfc_deep12_flat_s42

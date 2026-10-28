@@ -1,0 +1,4 @@
+[G_deep12] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)]}  params=852,362
+  [G_deep12] ep 1 train=0.3260 val=0.5753 best=0.5753 lr=3.34e-04
+  [G_deep12] ep10 train=0.8791 val=0.8627 best=0.8745 lr=9.87e-04
+  [G_deep12] ep20 train=0.9045 val=0.9032 best=0.9032 lr=9.26e-04

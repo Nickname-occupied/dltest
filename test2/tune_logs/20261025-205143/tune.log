@@ -1,0 +1,9 @@
+[S2_step] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'lr': 0.001, 'sched': 'step'}  params=556,426
+  [S2_step] ep 1 train=0.3270 val=0.7228 best=0.7228 lr=3.34e-04
+[S2_step] DONE best_ep=1 val=0.7228 test=0.7224 (19s)
+
+=== ranked by val acc ===
+  S2_step   val=0.7228 test=0.7224 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (19.1s)
+
+best: S2_step  val=0.7228  test=0.7224
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-205143

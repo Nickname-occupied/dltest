@@ -1,0 +1,19 @@
+[G_inv96_bd] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(96, 2), (96, 2), (64, 2), (64, 2)]}  params=904,586
+  [G_inv96_bd] ep 1 train=0.4792 val=0.5237 best=0.5237 lr=3.34e-04
+  [G_inv96_bd] ep10 train=0.8827 val=0.8543 best=0.8770 lr=9.87e-04
+  [G_inv96_bd] ep20 train=0.9067 val=0.9027 best=0.9090 lr=9.26e-04
+  [G_inv96_bd] ep30 train=0.9194 val=0.9133 best=0.9280 lr=8.21e-04
+  [G_inv96_bd] ep40 train=0.9272 val=0.9275 best=0.9288 lr=6.82e-04
+  [G_inv96_bd] ep50 train=0.9364 val=0.9373 best=0.9373 lr=5.24e-04
+  [G_inv96_bd] ep60 train=0.9413 val=0.9387 best=0.9412 lr=3.64e-04
+  [G_inv96_bd] ep70 train=0.9472 val=0.9442 best=0.9452 lr=2.18e-04
+  [G_inv96_bd] ep80 train=0.9506 val=0.9447 best=0.9462 lr=1.01e-04
+  [G_inv96_bd] ep90 train=0.9523 val=0.9455 best=0.9480 lr=2.60e-05
+  [G_inv96_bd] ep100 train=0.9546 val=0.9430 best=0.9480 lr=0.00e+00
+[G_inv96_bd] DONE best_ep=87 val=0.9480 test=0.9431 weights=raw (1159s)
+
+=== ranked by val acc ===
+  G_inv96_bd val=0.9480 test=0.9431 ep=87 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[96, 96, 64, 64] (1159.0s)
+
+best: G_inv96_bd  val=0.9480  test=0.9431
+outputs -> C:\Users\25707\projects\dltest\test2\matrix_runs\branchdrop_20261026-131306\branchdrop_G_inv96_bd_s42

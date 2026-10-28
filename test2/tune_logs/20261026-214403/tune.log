@@ -1,0 +1,33 @@
+[P1_1blk] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'aug_sched': 'cosine', 'stages': [(32, 1), (64, 1), (128, 1), (256, 1)]}  params=1,219,210
+  [P1_1blk] ep 1 train=0.4556 val=0.6710 best=0.6710 lr=3.34e-04
+  [P1_1blk] ep10 train=0.8625 val=0.8542 best=0.8673 lr=9.87e-04
+  [P1_1blk] ep20 train=0.8903 val=0.9055 best=0.9055 lr=9.26e-04
+  [P1_1blk] ep30 train=0.9068 val=0.9163 best=0.9163 lr=8.21e-04
+  [P1_1blk] ep40 train=0.9223 val=0.9185 best=0.9187 lr=6.82e-04
+  [P1_1blk] ep50 train=0.9369 val=0.9253 best=0.9260 lr=5.24e-04
+  [P1_1blk] ep60 train=0.9478 val=0.9367 best=0.9367 lr=3.64e-04
+  [P1_1blk] ep70 train=0.9558 val=0.9388 best=0.9402 lr=2.18e-04
+  [P1_1blk] ep80 train=0.9650 val=0.9458 best=0.9458 lr=1.01e-04
+  [P1_1blk] ep90 train=0.9686 val=0.9440 best=0.9467 lr=2.60e-05
+  [P1_1blk] ep100 train=0.9689 val=0.9452 best=0.9467 lr=0.00e+00
+[P1_1blk] DONE best_ep=84 val=0.9467 test=0.9419 weights=raw (384s)
+[P2_2blk] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'aug_sched': 'cosine', 'stages': [(32, 2), (64, 2), (128, 2), (256, 2)]}  params=2,787,850
+  [P2_2blk] ep 1 train=0.5111 val=0.7593 best=0.7593 lr=3.34e-04
+  [P2_2blk] ep10 train=0.8756 val=0.8710 best=0.8710 lr=9.87e-04
+  [P2_2blk] ep20 train=0.9030 val=0.8880 best=0.9032 lr=9.26e-04
+  [P2_2blk] ep30 train=0.9195 val=0.9157 best=0.9205 lr=8.21e-04
+  [P2_2blk] ep40 train=0.9296 val=0.9270 best=0.9270 lr=6.82e-04
+  [P2_2blk] ep50 train=0.9461 val=0.9388 best=0.9388 lr=5.24e-04
+  [P2_2blk] ep60 train=0.9595 val=0.9348 best=0.9388 lr=3.64e-04
+  [P2_2blk] ep70 train=0.9686 val=0.9413 best=0.9433 lr=2.18e-04
+  [P2_2blk] ep80 train=0.9776 val=0.9437 best=0.9453 lr=1.01e-04
+  [P2_2blk] ep90 train=0.9822 val=0.9433 best=0.9455 lr=2.60e-05
+  [P2_2blk] ep100 train=0.9827 val=0.9445 best=0.9455 lr=0.00e+00
+[P2_2blk] DONE best_ep=87 val=0.9455 test=0.9428 weights=raw (547s)
+
+=== ranked by val acc ===
+  P1_1blk   val=0.9467 test=0.9419 ep=84 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[32, 64, 128, 256] (384.2s)
+  P2_2blk   val=0.9455 test=0.9428 ep=87 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[32, 64, 128, 256] (547.3s)
+
+best: P1_1blk  val=0.9467  test=0.9419
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-214403

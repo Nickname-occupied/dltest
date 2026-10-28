@@ -1,0 +1,2 @@
+trial,params,best_epoch,val_acc,test_acc,secs,widths,dropout,lr,wd,ls,aug,bs
+S2_step,556426,1,0.7228333333333333,0.7224,19.1,"[64, 64, 64, 64]",0.1,0.001,0.001,0.1,strong,128

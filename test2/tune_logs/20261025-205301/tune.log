@@ -1,0 +1,6 @@
+[S3_onecycle] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'lr': 0.002, 'sched': 'onecycle'}  params=556,426
+[S4_exp] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'lr': 0.001, 'sched': 'exp'}  params=556,426
+  [S4_exp] ep 1 train=0.3270 val=0.7218 best=0.7218 lr=3.34e-04
+  [S3_onecycle] ep 1 train=0.4285 val=0.7485 best=0.7485 lr=6.68e-04
+  [S4_exp] ep10 train=0.8831 val=0.8892 best=0.8932 lr=8.30e-04
+  [S3_onecycle] ep10 train=0.8859 val=0.8838 best=0.8982 lr=1.99e-03

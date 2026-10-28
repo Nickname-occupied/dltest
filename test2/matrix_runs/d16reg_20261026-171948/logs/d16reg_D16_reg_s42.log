@@ -1,0 +1,19 @@
+[D16_reg] {'lr': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'save_every': 10, 'stages': [(64, 4), (64, 4), (64, 4), (64, 4)], 'dropout': 0.2, 'wd': 0.005}  params=1,148,298
+  [D16_reg] ep 1 train=0.4501 val=0.5970 best=0.5970 lr=3.34e-04
+  [D16_reg] ep10 train=0.8904 val=0.8890 best=0.8940 lr=9.87e-04
+  [D16_reg] ep20 train=0.9140 val=0.9142 best=0.9180 lr=9.26e-04
+  [D16_reg] ep30 train=0.9255 val=0.9282 best=0.9285 lr=8.21e-04
+  [D16_reg] ep40 train=0.9323 val=0.9412 best=0.9412 lr=6.82e-04
+  [D16_reg] ep50 train=0.9412 val=0.9405 best=0.9412 lr=5.24e-04
+  [D16_reg] ep60 train=0.9477 val=0.9428 best=0.9428 lr=3.64e-04
+  [D16_reg] ep70 train=0.9520 val=0.9450 best=0.9463 lr=2.18e-04
+  [D16_reg] ep80 train=0.9572 val=0.9443 best=0.9483 lr=1.01e-04
+  [D16_reg] ep90 train=0.9585 val=0.9473 best=0.9483 lr=2.60e-05
+  [D16_reg] ep100 train=0.9590 val=0.9468 best=0.9483 lr=0.00e+00
+[D16_reg] DONE best_ep=76 val=0.9483 test=0.9435 weights=raw (1189s)
+
+=== ranked by val acc ===
+  D16_reg   val=0.9483 test=0.9435 ep=76 lr=0.001 wd=5e-03 dr=0.2 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (1189.0s)
+
+best: D16_reg  val=0.9483  test=0.9435
+outputs -> C:\Users\25707\projects\dltest\test2\matrix_runs\d16reg_20261026-171948\d16reg_D16_reg_s42

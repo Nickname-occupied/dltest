@@ -1,0 +1,2 @@
+trial,params,best_epoch,val_acc,ema_val,test_acc,weights,secs,widths,dropout,lr,wd,ls,aug,bs
+G_deep12_branchdrop,852362,1,0.42833333333333334,0.0,0.4296,raw,17.5,"[64, 64, 64, 64]",0.1,0.001,0.001,0.1,strong,128

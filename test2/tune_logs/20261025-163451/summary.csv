@@ -1,0 +1,2 @@
+trial,params,best_epoch,val_acc,test_acc,secs,widths,dropout,lr,wd,ls,aug,bs
+C_deep12,1588618,3,0.8235,0.8199,59.0,"[32, 64, 128, 256]",0.1,0.001,0.001,0.1,strong,128

@@ -1,0 +1,24 @@
+[D16_t15] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong2', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(64, 4), (64, 4), (64, 4), (64, 4)]}  params=1,148,298
+  [D16_t15] ep 1 train=0.4389 val=0.5512 best=0.5512 lr=3.34e-04
+  [D16_t15] ep10 train=0.8893 val=0.8833 best=0.8835 lr=9.94e-04
+  [D16_t15] ep20 train=0.9130 val=0.9180 best=0.9205 lr=9.67e-04
+  [D16_t15] ep30 train=0.9231 val=0.9152 best=0.9225 lr=9.19e-04
+  [D16_t15] ep40 train=0.9298 val=0.9385 best=0.9385 lr=8.52e-04
+  [D16_t15] ep50 train=0.9385 val=0.9373 best=0.9385 lr=7.68e-04
+  [D16_t15] ep60 train=0.9433 val=0.9418 best=0.9418 lr=6.73e-04
+  [D16_t15] ep70 train=0.9474 val=0.9453 best=0.9453 lr=5.69e-04
+  [D16_t15] ep80 train=0.9526 val=0.9378 best=0.9453 lr=4.63e-04
+  [D16_t15] ep90 train=0.9567 val=0.9475 best=0.9475 lr=3.58e-04
+  [D16_t15] ep100 train=0.9597 val=0.9438 best=0.9488 lr=2.59e-04
+  [D16_t15] ep110 train=0.9628 val=0.9472 best=0.9493 lr=1.72e-04
+  [D16_t15] ep120 train=0.9654 val=0.9412 best=0.9493 lr=9.93e-05
+  [D16_t15] ep130 train=0.9670 val=0.9443 best=0.9493 lr=4.50e-05
+  [D16_t15] ep140 train=0.9687 val=0.9452 best=0.9493 lr=1.14e-05
+  [D16_t15] ep150 train=0.9693 val=0.9463 best=0.9493 lr=0.00e+00
+[D16_t15] DONE best_ep=108 val=0.9493 test=0.9430 weights=raw (2201s)
+
+=== ranked by val acc ===
+  D16_t15   val=0.9493 test=0.9430 ep=108 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong2 bs=128 widths=[64, 64, 64, 64] (2200.7s)
+
+best: D16_t15  val=0.9493  test=0.9430
+outputs -> C:\Users\25707\projects\dltest\test2\matrix_runs\deep150_20261026-142947\deep150_D16_t15_s42

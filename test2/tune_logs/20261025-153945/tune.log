@@ -1,0 +1,1 @@
+[baseline] {'widths': [32, 64, 128], 'dropout': 0.1, 'lr': 0.0001, 'wd': 0.0, 'ls': 0.0, 'aug': 'mild', 'bs': 64, 'pool': 'max', 'res': False, 'k': 3}  params=288,170

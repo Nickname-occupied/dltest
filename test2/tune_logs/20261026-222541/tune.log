@@ -1,0 +1,33 @@
+[Q1_64_128_256_256] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'aug_sched': 'cosine', 'stages': [(64, 1), (128, 1), (256, 1), (256, 1)]}  params=2,370,314
+  [Q1_64_128_256_256] ep 1 train=0.4901 val=0.6717 best=0.6717 lr=3.34e-04
+  [Q1_64_128_256_256] ep10 train=0.8680 val=0.8468 best=0.8635 lr=9.87e-04
+  [Q1_64_128_256_256] ep20 train=0.8972 val=0.8842 best=0.9002 lr=9.26e-04
+  [Q1_64_128_256_256] ep30 train=0.9163 val=0.9160 best=0.9160 lr=8.21e-04
+  [Q1_64_128_256_256] ep40 train=0.9290 val=0.9222 best=0.9243 lr=6.82e-04
+  [Q1_64_128_256_256] ep50 train=0.9427 val=0.9323 best=0.9360 lr=5.24e-04
+  [Q1_64_128_256_256] ep60 train=0.9560 val=0.9382 best=0.9408 lr=3.64e-04
+  [Q1_64_128_256_256] ep70 train=0.9643 val=0.9412 best=0.9438 lr=2.18e-04
+  [Q1_64_128_256_256] ep80 train=0.9743 val=0.9417 best=0.9443 lr=1.01e-04
+  [Q1_64_128_256_256] ep90 train=0.9789 val=0.9453 best=0.9455 lr=2.60e-05
+  [Q1_64_128_256_256] ep100 train=0.9798 val=0.9450 best=0.9455 lr=0.00e+00
+[Q1_64_128_256_256] DONE best_ep=83 val=0.9455 test=0.9427 weights=raw (497s)
+[Q2_64_128_256_512] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'aug_sched': 'cosine', 'stages': [(64, 1), (128, 1), (256, 1), (512, 1)]}  params=4,865,290
+  [Q2_64_128_256_512] ep 1 train=0.5167 val=0.6642 best=0.6642 lr=3.34e-04
+  [Q2_64_128_256_512] ep10 train=0.8704 val=0.8522 best=0.8530 lr=9.87e-04
+  [Q2_64_128_256_512] ep20 train=0.9016 val=0.8932 best=0.8932 lr=9.26e-04
+  [Q2_64_128_256_512] ep30 train=0.9199 val=0.9188 best=0.9188 lr=8.21e-04
+  [Q2_64_128_256_512] ep40 train=0.9340 val=0.9317 best=0.9317 lr=6.82e-04
+  [Q2_64_128_256_512] ep50 train=0.9477 val=0.9337 best=0.9345 lr=5.24e-04
+  [Q2_64_128_256_512] ep60 train=0.9611 val=0.9358 best=0.9358 lr=3.64e-04
+  [Q2_64_128_256_512] ep70 train=0.9723 val=0.9437 best=0.9437 lr=2.18e-04
+  [Q2_64_128_256_512] ep80 train=0.9800 val=0.9440 best=0.9455 lr=1.01e-04
+  [Q2_64_128_256_512] ep90 train=0.9840 val=0.9465 best=0.9485 lr=2.60e-05
+  [Q2_64_128_256_512] ep100 train=0.9847 val=0.9450 best=0.9485 lr=0.00e+00
+[Q2_64_128_256_512] DONE best_ep=89 val=0.9485 test=0.9454 weights=raw (535s)
+
+=== ranked by val acc ===
+  Q2_64_128_256_512 val=0.9485 test=0.9454 ep=89 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 128, 256, 512] (535.4s)
+  Q1_64_128_256_256 val=0.9455 test=0.9427 ep=83 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 128, 256, 256] (496.8s)
+
+best: Q2_64_128_256_512  val=0.9485  test=0.9454
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-222541

@@ -1,0 +1,2 @@
+trial,params,best_epoch,val_acc,test_acc,secs,widths,dropout,lr,wd,ls,aug,bs
+baseline,288170,2,0.8015,0.8032,26.0,"[32, 64, 128]",0.1,0.0001,0.0,0.0,mild,64

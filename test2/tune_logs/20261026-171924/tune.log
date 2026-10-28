@@ -1,0 +1,9 @@
+[D16_reg] {'lr': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'save_every': 10, 'stages': [(64, 4), (64, 4), (64, 4), (64, 4)], 'dropout': 0.2, 'wd': 0.005}  params=1,148,298
+  [D16_reg] ep 1 train=0.4504 val=0.6132 best=0.6132 lr=3.34e-04
+[D16_reg] DONE best_ep=1 val=0.6132 test=0.6215 weights=raw (19s)
+
+=== ranked by val acc ===
+  D16_reg   val=0.6132 test=0.6215 ep= 1 lr=0.001 wd=5e-03 dr=0.2 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (19.0s)
+
+best: D16_reg  val=0.6132  test=0.6215
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-171924

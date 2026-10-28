@@ -1,0 +1,19 @@
+[G_deep12_branchdrop] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'drop_mode': 'branch'}  params=852,362
+  [G_deep12_branchdrop] ep 1 train=0.4531 val=0.4178 best=0.4178 lr=3.34e-04
+  [G_deep12_branchdrop] ep10 train=0.8907 val=0.8880 best=0.8925 lr=9.87e-04
+  [G_deep12_branchdrop] ep20 train=0.9143 val=0.9190 best=0.9255 lr=9.26e-04
+  [G_deep12_branchdrop] ep30 train=0.9245 val=0.9295 best=0.9323 lr=8.21e-04
+  [G_deep12_branchdrop] ep40 train=0.9351 val=0.9427 best=0.9427 lr=6.82e-04
+  [G_deep12_branchdrop] ep50 train=0.9423 val=0.9427 best=0.9427 lr=5.24e-04
+  [G_deep12_branchdrop] ep60 train=0.9480 val=0.9395 best=0.9443 lr=3.64e-04
+  [G_deep12_branchdrop] ep70 train=0.9523 val=0.9420 best=0.9450 lr=2.18e-04
+  [G_deep12_branchdrop] ep80 train=0.9576 val=0.9447 best=0.9462 lr=1.01e-04
+  [G_deep12_branchdrop] ep90 train=0.9593 val=0.9443 best=0.9473 lr=2.60e-05
+  [G_deep12_branchdrop] ep100 train=0.9580 val=0.9462 best=0.9473 lr=0.00e+00
+[G_deep12_branchdrop] DONE best_ep=83 val=0.9473 test=0.9476 weights=raw (998s)
+
+=== ranked by val acc ===
+  G_deep12_branchdrop val=0.9473 test=0.9476 ep=83 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (998.0s)
+
+best: G_deep12_branchdrop  val=0.9473  test=0.9476
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-125216

@@ -1,0 +1,9 @@
+[C_deepwide] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(80, 3), (80, 3), (64, 3), (64, 3)]}  params=1,095,498
+  [C_deepwide] ep 1 train=0.4743 val=nan best=nan lr=3.34e-04
+[C_deepwide] DONE best_ep=2 val=nan test=0.8057 weights=raw (38s)
+
+=== ranked by val acc ===
+  C_deepwide val=nan test=0.8057 ep= 2 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[80, 80, 64, 64] (38.3s)
+
+best: C_deepwide  val=nan  test=0.8057
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-162058

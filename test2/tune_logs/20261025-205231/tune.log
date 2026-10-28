@@ -1,0 +1,9 @@
+[S4_exp] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'lr': 0.001, 'sched': 'exp'}  params=556,426
+  [S4_exp] ep 1 train=0.3268 val=0.7217 best=0.7217 lr=3.34e-04
+[S4_exp] DONE best_ep=1 val=0.7217 test=0.7215 (18s)
+
+=== ranked by val acc ===
+  S4_exp    val=0.7217 test=0.7215 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (18.0s)
+
+best: S4_exp  val=0.7217  test=0.7215
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-205231

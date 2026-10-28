@@ -1,0 +1,9 @@
+[G_deep12_branchdrop] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'drop_mode': 'branch'}  params=852,362
+  [G_deep12_branchdrop] ep 1 train=0.4532 val=0.4283 best=0.4283 lr=3.34e-04
+[G_deep12_branchdrop] DONE best_ep=1 val=0.4283 test=0.4296 weights=raw (18s)
+
+=== ranked by val acc ===
+  G_deep12_branchdrop val=0.4283 test=0.4296 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (17.5s)
+
+best: G_deep12_branchdrop  val=0.4283  test=0.4296
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-125148

@@ -1,0 +1,19 @@
+[G_ema] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'ema': True}  params=556,426
+  [G_ema] ep 1 train=0.3268 val=0.7223 best=0.7223 ema=0.1043 lr=3.34e-04
+  [G_ema] ep10 train=0.8832 val=0.8943 best=0.8943 ema=0.8803 lr=9.87e-04
+  [G_ema] ep20 train=0.9054 val=0.9085 best=0.9200 ema=0.8950 lr=9.26e-04
+  [G_ema] ep30 train=0.9135 val=0.9238 best=0.9243 ema=0.9237 lr=8.21e-04
+  [G_ema] ep40 train=0.9242 val=0.9337 best=0.9372 ema=0.9328 lr=6.82e-04
+  [G_ema] ep50 train=0.9302 val=0.9352 best=0.9372 ema=0.9300 lr=5.24e-04
+  [G_ema] ep60 train=0.9372 val=0.9368 best=0.9378 ema=0.9385 lr=3.64e-04
+  [G_ema] ep70 train=0.9407 val=0.9402 best=0.9425 ema=0.9418 lr=2.18e-04
+  [G_ema] ep80 train=0.9441 val=0.9415 best=0.9443 ema=0.9405 lr=1.01e-04
+  [G_ema] ep90 train=0.9454 val=0.9417 best=0.9458 ema=0.9435 lr=2.60e-05
+  [G_ema] ep100 train=0.9462 val=0.9453 best=0.9458 ema=0.9453 lr=0.00e+00
+[G_ema] DONE best_ep=85 val=0.9458 test=0.9429 weights=raw (raw val=0.9458, ema val=0.9458) (901s)
+
+=== ranked by val acc ===
+  G_ema     val=0.9458 test=0.9429 ep=85 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (900.6s)
+
+best: G_ema  val=0.9458  test=0.9429
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-221130

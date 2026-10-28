@@ -1,0 +1,19 @@
+[C_deepwide] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(80, 3), (80, 3), (64, 3), (64, 3)], 'save_every': 10}  params=1,095,498
+  [C_deepwide] ep 1 train=0.4751 val=nan best=nan lr=3.34e-04
+  [C_deepwide] ep10 train=0.8885 val=nan best=nan lr=9.87e-04
+  [C_deepwide] ep20 train=0.9109 val=nan best=nan lr=9.26e-04
+  [C_deepwide] ep30 train=0.9246 val=nan best=nan lr=8.21e-04
+  [C_deepwide] ep40 train=0.9339 val=nan best=nan lr=6.82e-04
+  [C_deepwide] ep50 train=0.9398 val=nan best=nan lr=5.24e-04
+  [C_deepwide] ep60 train=0.9470 val=nan best=nan lr=3.64e-04
+  [C_deepwide] ep70 train=0.9527 val=nan best=nan lr=2.18e-04
+  [C_deepwide] ep80 train=0.9565 val=nan best=nan lr=1.01e-04
+  [C_deepwide] ep90 train=0.9584 val=nan best=nan lr=2.60e-05
+  [C_deepwide] ep100 train=0.9599 val=nan best=nan lr=0.00e+00
+[C_deepwide] DONE best_ep=100 val=nan test=0.9440 weights=raw (1377s)
+
+=== ranked by val acc ===
+  C_deepwide val=nan test=0.9440 ep=100 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[80, 80, 64, 64] (1377.4s)
+
+best: C_deepwide  val=nan  test=0.9440
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-163418

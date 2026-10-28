@@ -1,0 +1,9 @@
+[X1_gelu] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'aug_sched': 'cosine', 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'act': 'gelu', 'pool': 'max'}  params=852,362
+  [X1_gelu] ep 1 train=0.4110 val=0.6542 best=0.6542 lr=3.34e-04
+[X1_gelu] DONE best_ep=1 val=0.6542 test=0.6659 weights=raw (18s)
+
+=== ranked by val acc ===
+  X1_gelu   val=0.6542 test=0.6659 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (18.0s)
+
+best: X1_gelu  val=0.6542  test=0.6659
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261027-162434

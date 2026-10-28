@@ -1,0 +1,19 @@
+[deep12_mlp] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'head': 'mlp'}  params=1,001,994
+  [deep12_mlp] ep 1 train=0.5024 val=0.7427 best=0.7427 lr=3.34e-04
+  [deep12_mlp] ep10 train=0.8924 val=0.9002 best=0.9052 lr=9.87e-04
+  [deep12_mlp] ep20 train=0.9153 val=0.9200 best=0.9263 lr=9.26e-04
+  [deep12_mlp] ep30 train=0.9260 val=0.9332 best=0.9338 lr=8.21e-04
+  [deep12_mlp] ep40 train=0.9351 val=0.9393 best=0.9402 lr=6.82e-04
+  [deep12_mlp] ep50 train=0.9423 val=0.9382 best=0.9410 lr=5.24e-04
+  [deep12_mlp] ep60 train=0.9486 val=0.9422 best=0.9462 lr=3.64e-04
+  [deep12_mlp] ep70 train=0.9538 val=0.9478 best=0.9478 lr=2.18e-04
+  [deep12_mlp] ep80 train=0.9571 val=0.9480 best=0.9485 lr=1.01e-04
+  [deep12_mlp] ep90 train=0.9593 val=0.9485 best=0.9485 lr=2.60e-05
+  [deep12_mlp] ep100 train=0.9597 val=0.9470 best=0.9485 lr=0.00e+00
+[deep12_mlp] DONE best_ep=78 val=0.9485 test=0.9424 weights=raw (971s)
+
+=== ranked by val acc ===
+  deep12_mlp val=0.9485 test=0.9424 ep=78 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (971.4s)
+
+best: deep12_mlp  val=0.9485  test=0.9424
+outputs -> C:\Users\25707\projects\dltest\test2\matrix_runs\bigfc_20261026-184403\bigfc_deep12_mlp_s42

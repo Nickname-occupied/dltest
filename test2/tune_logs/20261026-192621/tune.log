@@ -1,0 +1,9 @@
+[C_clean] {'lr': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(80, 3), (80, 3), (64, 3), (64, 3)], 'dropout': 0.1, 'wd': 0.001}  params=1,095,498
+  [C_clean] ep 1 train=0.4561 val=0.7077 best=0.7077 lr=3.34e-04
+[C_clean] DONE best_ep=2 val=0.8045 test=0.8041 weights=raw (49s)
+
+=== ranked by val acc ===
+  C_clean   val=0.8045 test=0.8041 ep= 2 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[80, 80, 64, 64] (49.1s)
+
+best: C_clean  val=0.8045  test=0.8041
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-192621

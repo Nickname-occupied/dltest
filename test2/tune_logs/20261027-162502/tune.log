@@ -1,0 +1,47 @@
+[X1_gelu] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'aug_sched': 'cosine', 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'act': 'gelu', 'pool': 'max'}  params=852,362
+  [X1_gelu] ep 1 train=0.4107 val=0.6820 best=0.6820 lr=3.34e-04
+  [X1_gelu] ep10 train=0.8816 val=0.8438 best=0.8765 lr=9.87e-04
+  [X1_gelu] ep20 train=0.9066 val=0.9072 best=0.9183 lr=9.26e-04
+  [X1_gelu] ep30 train=0.9221 val=0.9237 best=0.9237 lr=8.21e-04
+  [X1_gelu] ep40 train=0.9335 val=0.9335 best=0.9390 lr=6.82e-04
+  [X1_gelu] ep50 train=0.9455 val=0.9383 best=0.9425 lr=5.24e-04
+  [X1_gelu] ep60 train=0.9551 val=0.9450 best=0.9468 lr=3.64e-04
+  [X1_gelu] ep70 train=0.9636 val=0.9462 best=0.9503 lr=2.18e-04
+  [X1_gelu] ep80 train=0.9718 val=0.9482 best=0.9503 lr=1.01e-04
+  [X1_gelu] ep90 train=0.9760 val=0.9472 best=0.9505 lr=2.60e-05
+  [X1_gelu] ep100 train=0.9770 val=0.9485 best=0.9512 lr=0.00e+00
+[X1_gelu] DONE best_ep=98 val=0.9512 test=0.9456 weights=raw (936s)
+[X2_avg] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'aug_sched': 'cosine', 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'act': 'relu', 'pool': 'avg'}  params=852,362
+  [X2_avg] ep 1 train=0.4441 val=0.5748 best=0.5748 lr=3.34e-04
+  [X2_avg] ep10 train=0.8718 val=0.8307 best=0.8307 lr=9.87e-04
+  [X2_avg] ep20 train=0.8996 val=0.8560 best=0.8728 lr=9.26e-04
+  [X2_avg] ep30 train=0.9178 val=0.8913 best=0.9073 lr=8.21e-04
+  [X2_avg] ep40 train=0.9309 val=0.9235 best=0.9235 lr=6.82e-04
+  [X2_avg] ep50 train=0.9430 val=0.9335 best=0.9353 lr=5.24e-04
+  [X2_avg] ep60 train=0.9523 val=0.9420 best=0.9420 lr=3.64e-04
+  [X2_avg] ep70 train=0.9605 val=0.9428 best=0.9448 lr=2.18e-04
+  [X2_avg] ep80 train=0.9697 val=0.9477 best=0.9492 lr=1.01e-04
+  [X2_avg] ep90 train=0.9742 val=0.9490 best=0.9492 lr=2.60e-05
+  [X2_avg] ep100 train=0.9751 val=0.9483 best=0.9507 lr=0.00e+00
+[X2_avg] DONE best_ep=91 val=0.9507 test=0.9470 weights=raw (935s)
+[X3_gelu_avg] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'aug_sched': 'cosine', 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'act': 'gelu', 'pool': 'avg'}  params=852,362
+  [X3_gelu_avg] ep 1 train=0.3375 val=0.5873 best=0.5873 lr=3.34e-04
+  [X3_gelu_avg] ep10 train=0.8774 val=0.8165 best=0.8450 lr=9.87e-04
+  [X3_gelu_avg] ep20 train=0.9031 val=0.8370 best=0.8757 lr=9.26e-04
+  [X3_gelu_avg] ep30 train=0.9207 val=0.8978 best=0.9160 lr=8.21e-04
+  [X3_gelu_avg] ep40 train=0.9345 val=0.9307 best=0.9307 lr=6.82e-04
+  [X3_gelu_avg] ep50 train=0.9480 val=0.9393 best=0.9393 lr=5.24e-04
+  [X3_gelu_avg] ep60 train=0.9574 val=0.9400 best=0.9427 lr=3.64e-04
+  [X3_gelu_avg] ep70 train=0.9661 val=0.9438 best=0.9475 lr=2.18e-04
+  [X3_gelu_avg] ep80 train=0.9742 val=0.9508 best=0.9508 lr=1.01e-04
+  [X3_gelu_avg] ep90 train=0.9791 val=0.9507 best=0.9520 lr=2.60e-05
+  [X3_gelu_avg] ep100 train=0.9803 val=0.9523 best=0.9535 lr=0.00e+00
+[X3_gelu_avg] DONE best_ep=98 val=0.9535 test=0.9483 weights=raw (953s)
+
+=== ranked by val acc ===
+  X3_gelu_avg val=0.9535 test=0.9483 ep=98 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (953.1s)
+  X1_gelu   val=0.9512 test=0.9456 ep=98 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (935.6s)
+  X2_avg    val=0.9507 test=0.9470 ep=91 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (935.1s)
+
+best: X3_gelu_avg  val=0.9535  test=0.9483
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261027-162502

@@ -1,0 +1,48 @@
+[S3_onecycle] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 256, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'lr': 0.002, 'sched': 'onecycle'}  params=556,426
+[S2_step] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 256, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'lr': 0.002, 'sched': 'step'}  params=556,426
+  [S3_onecycle] ep 1 train=0.3255 val=0.6243 best=0.6243 lr=6.70e-04
+  [S2_step] ep 1 train=0.3255 val=0.6272 best=0.6272 lr=6.70e-04
+  [S3_onecycle] ep10 train=0.8827 val=0.8637 best=0.8915 lr=1.99e-03
+  [S2_step] ep10 train=0.8835 val=0.8675 best=0.8872 lr=2.00e-03
+  [S3_onecycle] ep20 train=0.9030 val=0.9033 best=0.9070 lr=1.94e-03
+  [S2_step] ep20 train=0.9035 val=0.9057 best=0.9108 lr=2.00e-03
+  [S3_onecycle] ep30 train=0.9143 val=0.9230 best=0.9230 lr=1.84e-03
+  [S2_step] ep30 train=0.9134 val=0.9223 best=0.9223 lr=2.00e-03
+  [S3_onecycle] ep40 train=0.9211 val=0.9297 best=0.9297 lr=1.71e-03
+  [S2_step] ep40 train=0.9198 val=0.9248 best=0.9275 lr=2.00e-03
+  [S3_onecycle] ep50 train=0.9288 val=0.9337 best=0.9337 lr=1.55e-03
+  [S2_step] ep50 train=0.9261 val=0.9337 best=0.9337 lr=2.00e-03
+  [S3_onecycle] ep60 train=0.9328 val=0.9373 best=0.9373 lr=1.36e-03
+  [S2_step] ep60 train=0.9295 val=0.9365 best=0.9365 lr=2.00e-03
+  [S3_onecycle] ep70 train=0.9375 val=0.9337 best=0.9388 lr=1.16e-03
+  [S2_step] ep70 train=0.9318 val=0.9315 best=0.9385 lr=2.00e-03
+  [S3_onecycle] ep80 train=0.9411 val=0.9340 best=0.9430 lr=9.47e-04
+  [S2_step] ep80 train=0.9366 val=0.9272 best=0.9430 lr=2.00e-03
+  [S3_onecycle] ep90 train=0.9443 val=0.9443 best=0.9448 lr=7.41e-04
+  [S2_step] ep90 train=0.9375 val=0.9380 best=0.9430 lr=2.00e-03
+  [S3_onecycle] ep100 train=0.9469 val=0.9418 best=0.9472 lr=5.48e-04
+  [S2_step] ep100 train=0.9473 val=0.9442 best=0.9468 lr=2.00e-04
+  [S3_onecycle] ep110 train=0.9495 val=0.9427 best=0.9472 lr=3.77e-04
+  [S2_step] ep110 train=0.9490 val=0.9448 best=0.9470 lr=2.00e-04
+  [S3_onecycle] ep120 train=0.9533 val=0.9458 best=0.9472 lr=2.35e-04
+  [S2_step] ep120 train=0.9502 val=0.9458 best=0.9473 lr=2.00e-04
+  [S3_onecycle] ep130 train=0.9536 val=0.9473 best=0.9485 lr=1.28e-04
+  [S2_step] ep130 train=0.9524 val=0.9468 best=0.9492 lr=2.00e-05
+  [S3_onecycle] ep140 train=0.9543 val=0.9455 best=0.9485 lr=6.23e-05
+  [S2_step] ep140 train=0.9509 val=0.9458 best=0.9492 lr=2.00e-05
+  [S3_onecycle] ep150 train=0.9570 val=0.9465 best=0.9485 lr=4.00e-05
+[S3_onecycle] DONE best_ep=127 val=0.9485 test=0.9432 (2057s)
+
+=== ranked by val acc ===
+  S3_onecycle val=0.9485 test=0.9432 ep=127 lr=0.002 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=256 widths=[64, 64, 64, 64] (2056.7s)
+
+best: S3_onecycle  val=0.9485  test=0.9432
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-210027
+  [S2_step] ep150 train=0.9533 val=0.9433 best=0.9492 lr=2.00e-05
+[S2_step] DONE best_ep=128 val=0.9492 test=0.9446 (2058s)
+
+=== ranked by val acc ===
+  S2_step   val=0.9492 test=0.9446 ep=128 lr=0.002 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=256 widths=[64, 64, 64, 64] (2057.6s)
+
+best: S2_step  val=0.9492  test=0.9446
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-210027

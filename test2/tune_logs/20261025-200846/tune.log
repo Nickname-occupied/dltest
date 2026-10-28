@@ -1,0 +1,19 @@
+[H_const1e3] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'sched': 'const'}  params=556,426
+  [H_const1e3] ep 1 train=0.3225 val=0.7185 best=0.7185 lr=3.34e-04
+  [H_const1e3] ep10 train=0.8832 val=0.8882 best=0.8882 lr=1.00e-03
+  [H_const1e3] ep20 train=0.9040 val=0.9155 best=0.9180 lr=1.00e-03
+  [H_const1e3] ep30 train=0.9146 val=0.9228 best=0.9237 lr=1.00e-03
+  [H_const1e3] ep40 train=0.9197 val=0.9290 best=0.9343 lr=1.00e-03
+  [H_const1e3] ep50 train=0.9262 val=0.9285 best=0.9343 lr=1.00e-03
+  [H_const1e3] ep60 train=0.9295 val=0.9348 best=0.9348 lr=1.00e-03
+  [H_const1e3] ep70 train=0.9329 val=0.9358 best=0.9375 lr=1.00e-03
+  [H_const1e3] ep80 train=0.9364 val=0.9373 best=0.9417 lr=1.00e-03
+  [H_const1e3] ep90 train=0.9379 val=0.9332 best=0.9427 lr=1.00e-03
+  [H_const1e3] ep100 train=0.9381 val=0.9377 best=0.9427 lr=1.00e-03
+[H_const1e3] DONE best_ep=88 val=0.9427 test=0.9373 (1012s)
+
+=== ranked by val acc ===
+  H_const1e3 val=0.9427 test=0.9373 ep=88 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (1012.1s)
+
+best: H_const1e3  val=0.9427  test=0.9373
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-200846

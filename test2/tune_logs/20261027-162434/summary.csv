@@ -1,0 +1,2 @@
+trial,params,best_epoch,val_acc,ema_val,test_acc,weights,secs,widths,dropout,lr,wd,ls,aug,bs
+X1_gelu,852362,1,0.6541666666666667,0.0,0.6659,raw,18.0,"[64, 64, 64, 64]",0.1,0.001,0.001,0.1,strong,128

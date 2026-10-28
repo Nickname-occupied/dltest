@@ -1,0 +1,9 @@
+[S3_onecycle] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'lr': 0.002, 'sched': 'onecycle'}  params=556,426
+  [S3_onecycle] ep 1 train=0.4282 val=0.7387 best=0.7387 lr=6.68e-04
+[S3_onecycle] DONE best_ep=1 val=0.7387 test=0.7369 (19s)
+
+=== ranked by val acc ===
+  S3_onecycle val=0.7387 test=0.7369 ep= 1 lr=0.002 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (18.5s)
+
+best: S3_onecycle  val=0.7387  test=0.7369
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-205207

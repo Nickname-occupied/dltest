@@ -1,0 +1,13 @@
+[F1_bs64] {'stages': [(32, 1), (64, 1), (128, 1), (256, 1)], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'bs': 64, 'pool': 'max', 'res': False, 'k': 3, 'pool_last': False, 'aug': 'strong'}  params=1,175,210
+  [F1_bs64] ep 1 train=0.6763 val=0.7983 best=0.7983 lr=3.34e-04
+[F1_bs64] DONE best_ep=1 val=0.7983 test=0.7992 (26s)
+[F2_rot] {'stages': [(32, 1), (64, 1), (128, 1), (256, 1)], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'bs': 128, 'pool': 'max', 'res': False, 'k': 3, 'pool_last': False, 'aug': 'rot'}  params=1,175,210
+  [F2_rot] ep 1 train=0.6509 val=0.7555 best=0.7555 lr=3.34e-04
+[F2_rot] DONE best_ep=1 val=0.7555 test=0.7574 (17s)
+
+=== ranked by val acc ===
+  F1_bs64   val=0.7983 test=0.7992 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=64  widths=[32, 64, 128, 256] (26.2s)
+  F2_rot    val=0.7555 test=0.7574 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=rot    bs=128 widths=[32, 64, 128, 256] (16.6s)
+
+best: F1_bs64  val=0.7983  test=0.7992
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-172404

@@ -1,0 +1,19 @@
+[G_fatstem96] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'stream', 'stages': [(96, 2), (64, 2), (64, 2), (64, 2)]}  params=720,010
+  [G_fatstem96] ep 1 train=0.3785 val=0.6938 best=0.6938 lr=3.34e-04
+  [G_fatstem96] ep10 train=0.8831 val=0.8908 best=0.8953 lr=9.87e-04
+  [G_fatstem96] ep20 train=0.9065 val=0.9065 best=0.9167 lr=9.26e-04
+  [G_fatstem96] ep30 train=0.9194 val=0.9217 best=0.9258 lr=8.21e-04
+  [G_fatstem96] ep40 train=0.9247 val=0.9348 best=0.9348 lr=6.82e-04
+  [G_fatstem96] ep50 train=0.9319 val=0.9362 best=0.9362 lr=5.24e-04
+  [G_fatstem96] ep60 train=0.9382 val=0.9360 best=0.9408 lr=3.64e-04
+  [G_fatstem96] ep70 train=0.9425 val=0.9383 best=0.9413 lr=2.18e-04
+  [G_fatstem96] ep80 train=0.9458 val=0.9418 best=0.9418 lr=1.01e-04
+  [G_fatstem96] ep90 train=0.9480 val=0.9420 best=0.9463 lr=2.60e-05
+  [G_fatstem96] ep100 train=0.9509 val=0.9425 best=0.9463 lr=0.00e+00
+[G_fatstem96] DONE best_ep=84 val=0.9463 test=0.9461 weights=raw (1011s)
+
+=== ranked by val acc ===
+  G_fatstem96 val=0.9463 test=0.9461 ep=84 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[96, 64, 64, 64] (1010.9s)
+
+best: G_fatstem96  val=0.9463  test=0.9461
+outputs -> C:\Users\25707\projects\dltest\test2\matrix_runs\fatstem_20261026-155652\fatstem_G_fatstem96_s42

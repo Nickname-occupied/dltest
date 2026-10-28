@@ -1,0 +1,19 @@
+[G_wide80] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'stages': [(80, 2), (80, 2), (80, 2), (80, 2)]}  params=868,330
+  [G_wide80] ep 1 train=0.3167 val=0.6912 best=0.6912 lr=3.34e-04
+  [G_wide80] ep10 train=0.8832 val=0.8925 best=0.8953 lr=9.87e-04
+  [G_wide80] ep20 train=0.9062 val=0.9167 best=0.9167 lr=9.26e-04
+  [G_wide80] ep30 train=0.9172 val=0.9302 best=0.9302 lr=8.21e-04
+  [G_wide80] ep40 train=0.9281 val=0.9355 best=0.9355 lr=6.82e-04
+  [G_wide80] ep50 train=0.9340 val=0.9393 best=0.9393 lr=5.24e-04
+  [G_wide80] ep60 train=0.9408 val=0.9442 best=0.9442 lr=3.64e-04
+  [G_wide80] ep70 train=0.9438 val=0.9448 best=0.9455 lr=2.18e-04
+  [G_wide80] ep80 train=0.9484 val=0.9450 best=0.9488 lr=1.01e-04
+  [G_wide80] ep90 train=0.9511 val=0.9493 best=0.9493 lr=2.60e-05
+  [G_wide80] ep100 train=0.9520 val=0.9483 best=0.9493 lr=0.00e+00
+[G_wide80] DONE best_ep=90 val=0.9493 test=0.9433 weights=raw (965s)
+
+=== ranked by val acc ===
+  G_wide80  val=0.9493 test=0.9433 ep=90 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[80, 80, 80, 80] (965.2s)
+
+best: G_wide80  val=0.9493  test=0.9433
+outputs -> C:\Users\25707\projects\dltest\test2\matrix_runs\arch3_20261026-115435\arch3_G_wide80_s42

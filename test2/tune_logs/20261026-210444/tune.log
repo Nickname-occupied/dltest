@@ -1,0 +1,33 @@
+[A1_linear] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'aug_sched': 'linear'}  params=852,362
+  [A1_linear] ep 1 train=0.4369 val=0.6087 best=0.6087 lr=3.34e-04
+  [A1_linear] ep10 train=0.8808 val=0.8603 best=0.8748 lr=9.87e-04
+  [A1_linear] ep20 train=0.9070 val=0.8983 best=0.9212 lr=9.26e-04
+  [A1_linear] ep30 train=0.9236 val=0.9192 best=0.9252 lr=8.21e-04
+  [A1_linear] ep40 train=0.9339 val=0.9318 best=0.9335 lr=6.82e-04
+  [A1_linear] ep50 train=0.9438 val=0.9365 best=0.9377 lr=5.24e-04
+  [A1_linear] ep60 train=0.9530 val=0.9407 best=0.9407 lr=3.64e-04
+  [A1_linear] ep70 train=0.9603 val=0.9448 best=0.9453 lr=2.18e-04
+  [A1_linear] ep80 train=0.9667 val=0.9453 best=0.9458 lr=1.01e-04
+  [A1_linear] ep90 train=0.9712 val=0.9455 best=0.9458 lr=2.60e-05
+  [A1_linear] ep100 train=0.9746 val=0.9453 best=0.9458 lr=0.00e+00
+[A1_linear] DONE best_ep=76 val=0.9458 test=0.9488 weights=raw (898s)
+[A2_cosine] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'drop_mode': 'branch', 'stages': [(64, 3), (64, 3), (64, 3), (64, 3)], 'aug_sched': 'cosine'}  params=852,362
+  [A2_cosine] ep 1 train=0.4369 val=0.6087 best=0.6087 lr=3.34e-04
+  [A2_cosine] ep10 train=0.8795 val=0.8595 best=0.8827 lr=9.87e-04
+  [A2_cosine] ep20 train=0.9042 val=0.9088 best=0.9088 lr=9.26e-04
+  [A2_cosine] ep30 train=0.9198 val=0.9097 best=0.9253 lr=8.21e-04
+  [A2_cosine] ep40 train=0.9315 val=0.9358 best=0.9363 lr=6.82e-04
+  [A2_cosine] ep50 train=0.9441 val=0.9380 best=0.9380 lr=5.24e-04
+  [A2_cosine] ep60 train=0.9536 val=0.9445 best=0.9445 lr=3.64e-04
+  [A2_cosine] ep70 train=0.9613 val=0.9432 best=0.9463 lr=2.18e-04
+  [A2_cosine] ep80 train=0.9690 val=0.9452 best=0.9477 lr=1.01e-04
+  [A2_cosine] ep90 train=0.9729 val=0.9482 best=0.9493 lr=2.60e-05
+  [A2_cosine] ep100 train=0.9746 val=0.9485 best=0.9493 lr=0.00e+00
+[A2_cosine] DONE best_ep=81 val=0.9493 test=0.9494 weights=raw (902s)
+
+=== ranked by val acc ===
+  A2_cosine val=0.9493 test=0.9494 ep=81 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (901.9s)
+  A1_linear val=0.9458 test=0.9488 ep=76 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[64, 64, 64, 64] (898.2s)
+
+best: A2_cosine  val=0.9493  test=0.9494
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261026-210444

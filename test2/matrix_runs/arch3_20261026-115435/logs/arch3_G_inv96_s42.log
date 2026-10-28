@@ -1,0 +1,19 @@
+[G_inv96] {'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True, 'stages': [(96, 2), (96, 2), (64, 2), (64, 2)]}  params=904,586
+  [G_inv96] ep 1 train=0.3921 val=0.7040 best=0.7040 lr=3.34e-04
+  [G_inv96] ep10 train=0.8852 val=0.8828 best=0.8867 lr=9.87e-04
+  [G_inv96] ep20 train=0.9105 val=0.9218 best=0.9277 lr=9.26e-04
+  [G_inv96] ep30 train=0.9210 val=0.9288 best=0.9313 lr=8.21e-04
+  [G_inv96] ep40 train=0.9300 val=0.9350 best=0.9363 lr=6.82e-04
+  [G_inv96] ep50 train=0.9375 val=0.9397 best=0.9415 lr=5.24e-04
+  [G_inv96] ep60 train=0.9428 val=0.9423 best=0.9440 lr=3.64e-04
+  [G_inv96] ep70 train=0.9470 val=0.9460 best=0.9463 lr=2.18e-04
+  [G_inv96] ep80 train=0.9522 val=0.9467 best=0.9488 lr=1.01e-04
+  [G_inv96] ep90 train=0.9531 val=0.9473 best=0.9497 lr=2.60e-05
+  [G_inv96] ep100 train=0.9549 val=0.9465 best=0.9497 lr=0.00e+00
+[G_inv96] DONE best_ep=85 val=0.9497 test=0.9471 weights=raw (1039s)
+
+=== ranked by val acc ===
+  G_inv96   val=0.9497 test=0.9471 ep=85 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[96, 96, 64, 64] (1038.9s)
+
+best: G_inv96  val=0.9497  test=0.9471
+outputs -> C:\Users\25707\projects\dltest\test2\matrix_runs\arch3_20261026-115435\arch3_G_inv96_s42

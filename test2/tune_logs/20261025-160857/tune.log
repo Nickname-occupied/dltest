@@ -1,0 +1,13 @@
+[A_3block] {'widths': [32, 64, 128], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': False, 'k': 3, 'pool_last': True}  params=288,170
+  [A_3block] ep 1 train=0.6137 val=0.7552 best=0.7552 lr=3.34e-04
+[A_3block] DONE best_ep=1 val=0.7552 test=0.7558 (15s)
+[B_4stage] {'widths': [32, 64, 128, 256], 'dropout': 0.1, 'lr': 0.001, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 128, 'pool': 'max', 'res': False, 'k': 3, 'pool_last': False}  params=1,175,210
+  [B_4stage] ep 1 train=0.6535 val=0.7605 best=0.7605 lr=3.34e-04
+[B_4stage] DONE best_ep=1 val=0.7605 test=0.7629 (10s)
+
+=== ranked by val acc ===
+  B_4stage  val=0.7605 test=0.7629 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[32, 64, 128, 256] (10.0s)
+  A_3block  val=0.7552 test=0.7558 ep= 1 lr=0.001 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=128 widths=[32, 64, 128] (15.5s)
+
+best: B_4stage  val=0.7605  test=0.7629
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-160857

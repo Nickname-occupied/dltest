@@ -1,0 +1,19 @@
+[G_fast] {'stages': [(64, 2), (64, 2), (64, 2), (64, 2)], 'dropout': 0.1, 'lr': 0.002, 'wd': 0.001, 'ls': 0.1, 'aug': 'strong', 'bs': 256, 'pool': 'max', 'res': True, 'k': 3, 'pool_last': False, 'fused': True, 'cl': True}  params=556,426
+  [G_fast] ep 1 train=0.3257 val=0.6260 best=0.6260 lr=6.70e-04
+  [G_fast] ep10 train=0.8839 val=0.8630 best=0.8942 lr=1.97e-03
+  [G_fast] ep20 train=0.9039 val=0.9068 best=0.9118 lr=1.85e-03
+  [G_fast] ep30 train=0.9138 val=0.9173 best=0.9198 lr=1.64e-03
+  [G_fast] ep40 train=0.9227 val=0.9310 best=0.9320 lr=1.36e-03
+  [G_fast] ep50 train=0.9307 val=0.9355 best=0.9355 lr=1.05e-03
+  [G_fast] ep60 train=0.9362 val=0.9363 best=0.9398 lr=7.28e-04
+  [G_fast] ep70 train=0.9416 val=0.9433 best=0.9433 lr=4.36e-04
+  [G_fast] ep80 train=0.9449 val=0.9398 best=0.9443 lr=2.03e-04
+  [G_fast] ep90 train=0.9453 val=0.9422 best=0.9447 lr=5.20e-05
+  [G_fast] ep100 train=0.9465 val=0.9420 best=0.9447 lr=0.00e+00
+[G_fast] DONE best_ep=89 val=0.9447 test=0.9405 (643s)
+
+=== ranked by val acc ===
+  G_fast    val=0.9447 test=0.9405 ep=89 lr=0.002 wd=1e-03 dr=0.1 ls=0.1 aug=strong bs=256 widths=[64, 64, 64, 64] (642.8s)
+
+best: G_fast  val=0.9447  test=0.9405
+outputs -> C:\Users\25707\projects\dltest\test2\tune_logs\20261025-203804
